@@ -1,0 +1,1091 @@
+{
+    "CASES": {
+        "description": "所有病案",
+        "Z": {
+            "description": "填报信息",
+            "ZA": {
+                "description": "机构信息",
+                "ZA01C": {
+                    "description": "行政区划代码《指标》",
+                    "__XmlTagText__": "110105"
+                },
+                "ZA02C": {
+                    "description": "组织机构代码",
+                    "__XmlTagText__": "40000000X"
+                },
+                "ZA03": {
+                    "description": "机构名称",
+                    "__XmlTagText__": "XXXXX医院"
+                },
+                "ZA04": {
+                    "description": "单位负责人",
+                    "__XmlTagText__": "XXX"
+                }
+            },
+            "ZB": {
+                "description": "填报信息",
+                "ZB01C": {
+                    "description": "报表代码",
+                    "__XmlTagText__": "B_WT4-2012"
+                },
+                "ZB02": {
+                    "description": "数据年份",
+                    "__XmlTagText__": "2013"
+                },
+                "ZB03": {
+                    "description": "数据月份",
+                    "__XmlTagText__": "1"
+                },
+                "ZB04": {
+                    "description": "填报人",
+                    "__XmlTagText__": "XXX"
+                },
+                "ZB05": {
+                    "description": "填报人联系电话",
+                    "__XmlTagText__": "88888888"
+                },
+                "ZB06": {
+                    "description": "填报日期",
+                    "__XmlTagText__": "2013-01-01 00:59:59"
+                },
+                "ZB07": {
+                    "description": "记录数",
+                    "__XmlTagText__": "1"
+                },
+                "ZB08": {
+                    "description": "邮箱",
+                    "__XmlTagText__": "XXXX@hitb.com.cn"
+                },
+                "ZB09": {
+                    "description": "手机",
+                    "__XmlTagText__": "13141278888"
+                }
+            }
+        },
+        "CASE": {
+            "description": "病案",
+            "A": {
+                "description": "病案首页",
+                "AA": {
+                    "description": "患者基本情况",
+                    "AAA": {
+                        "description": "患者信息",
+                        "AAA01": {
+                            "description": "姓名",
+                            "__XmlTagText__": "张三"
+                        },
+                        "AAA02C": {
+                            "description": "性别代码《指标》",
+                            "__XmlTagText__": "1"
+                        },
+                        "AAA03": {
+                            "description": "出生日期",
+                            "__XmlTagText__": "1982-02-28"
+                        },
+                        "AAA04": {
+                            "description": "年龄(岁)",
+                            "__XmlTagText__": "28"
+                        },
+                        "AAA05C": {
+                            "description": "国籍代码《指标》",
+                            "__XmlTagText__": "1"
+                        },
+                        "AAA40": {
+                            "description": "年龄不足1周岁天数",
+                            "__XmlTagText__": "1"
+                        },
+                        "AAA42": {
+                            "description": "新生儿入院体重（克）",
+                            "__XmlTagText__": "3500"
+                        },
+                        "AAA06C": {
+                            "description": "民族代码《指标》",
+                            "__XmlTagText__": "1"
+                        },
+                        "AAA07": {
+                            "description": "身份证号",
+                            "__XmlTagText__": "23060219681005488X"
+                        },
+                        "AAA08C": {
+                            "description": "婚姻状况代码《指标》",
+                            "__XmlTagText__": "2"
+                        },
+                        "AAA09": {
+                            "description": "出生地省（区、市）",
+                            "__XmlTagText__": "山东省"
+                        },
+                        "AAA10": {
+                            "description": "出生地市",
+                            "__XmlTagText__": "济南市"
+                        },
+                        "AAA11": {
+                            "description": "出生地县",
+                            "__XmlTagText__": "历下区"
+                        },
+                        "AAA43": {
+                            "description": "籍贯省（区、市）",
+                            "__XmlTagText__": "山东省"
+                        },
+                        "AAA44": {
+                            "description": "籍贯市",
+                            "__XmlTagText__": "济南市"
+                        },
+                        "AAA45": {
+                            "description": "户籍省（区、市）",
+                            "__XmlTagText__": "山东省"
+                        },
+                        "AAA46": {
+                            "description": "户籍市",
+                            "__XmlTagText__": "济南市"
+                        },
+                        "AAA47": {
+                            "description": "户籍县",
+                            "__XmlTagText__": "历下区"
+                        },
+                        "AAA12": {
+                            "description": "户籍详细地址",
+                            "__XmlTagText__": "山东省济南市历下区"
+                        },
+                        "AAA13C": {
+                            "description": "户籍地址区县编码《指标》",
+                            "__XmlTagText__": "370000"
+                        },
+                        "AAA33C": {
+                            "description": "户籍街道乡镇代码《指标》",
+                            "__XmlTagText__": "110101001010"
+                        },
+                        "AAA14C": {
+                            "description": "户籍地址邮政编码",
+                            "__XmlTagText__": "163311"
+                        },
+                        "AAA15": {
+                            "description": "现住址详细地址（居住半年以上）",
+                            "__XmlTagText__": "北京市东城区和平里大街"
+                        },
+                        "AAA48": {
+                            "description": "现住址省（区、市）（居住半年以上）",
+                            "__XmlTagText__": "北京市"
+                        },
+                        "AAA49": {
+                            "description": "现住址市",
+                            "__XmlTagText__": "北京市"
+                        },
+                        "AAA50": {
+                            "description": "现住址县",
+                            "__XmlTagText__": "东城区"
+                        },
+                        "AAA16C": {
+                            "description": "现住址区县编码（居住半年以上）《指标》",
+                            "__XmlTagText__": "110101"
+                        },
+                        "AAA36C": {
+                            "description": "现住址街道乡镇代码（居住半年以上）《指标》",
+                            "__XmlTagText__": "110101004009"
+                        },
+                        "AAA51": {
+                            "description": "现住址电话",
+                            "__XmlTagText__": "01080725810"
+                        },
+                        "AAA17C": {
+                            "description": "现住址邮政编码（居住半年以上）",
+                            "__XmlTagText__": "163311"
+                        },
+                        "AAA18C": {
+                            "description": "职业代码《指标》",
+                            "__XmlTagText__": "11"
+                        },
+                        "AAA19": {
+                            "description": "工作单位及地址",
+                            "__XmlTagText__": "北京市海淀区上地东路1号联想大厦"
+                        },
+                        "AAA20": {
+                            "description": "工作单位电话",
+                            "__XmlTagText__": "829397645"
+                        },
+                        "AAA21C": {
+                            "description": "工作单位邮政编码",
+                            "__XmlTagText__": "163311"
+                        },
+                        "AAA22": {
+                            "description": "联系人姓名",
+                            "__XmlTagText__": "张三"
+                        },
+                        "AAA23C": {
+                            "description": "联系人关系代码《指标》",
+                            "__XmlTagText__": "9"
+                        },
+                        "AAA24": {
+                            "description": "联系人地址",
+                            "__XmlTagText__": "北京市海淀区上地东路1号联想大厦"
+                        },
+                        "AAA25": {
+                            "description": "联系人电话",
+                            "__XmlTagText__": "83431231"
+                        },
+                        "AAA26C": {
+                            "description": "医疗付费方式代码《指标》",
+                            "__XmlTagText__": "6"
+                        },
+                        "AAA27": {
+                            "description": "医疗保险手册(卡)号（健康卡号）",
+                            "__XmlTagText__": "11111111111"
+                        },
+                        "AAA28": {
+                            "description": "病案号",
+                            "__XmlTagText__": "2012123101"
+                        },
+                        "AAA29": {
+                            "description": "住院次数",
+                            "__XmlTagText__": "5"
+                        }
+                    },
+                    "AAB": {
+                        "description": "入院信息",
+                        "AAB01": {
+                            "description": "入院时间(时)",
+                            "__XmlTagText__": "2013-05-05 10:10:10"
+                        },
+                        "AAB02C": {
+                            "description": "入院科别代码《指标》",
+                            "__XmlTagText__": "69"
+                        },
+                        "AAB03": {
+                            "description": "入院病房",
+                            "__XmlTagText__": "309"
+                        },
+                        "AAB11C": {
+                            "description": "入院医院内部科室代码",
+                            "__XmlTagText__": "01"
+                        },
+                        "AAB11N": {
+                            "description": "入院医院内部科室名称",
+                            "__XmlTagText__": "内科"
+                        },
+                        "AAB06C": {
+                            "description": "入院途径《指标》",
+                            "__XmlTagText__": "2"
+                        }
+                    },
+                    "AAC": {
+                        "description": "出院信息",
+                        "AAC01": {
+                            "description": "出院时间(时)",
+                            "__XmlTagText__": "2013-06-05 10:10:10"
+                        },
+                        "AAC02C": {
+                            "description": "出院科别代码《指标》",
+                            "__XmlTagText__": "69"
+                        },
+                        "AAC03": {
+                            "description": "出院病房",
+                            "__XmlTagText__": "201"
+                        },
+                        "AAC04": {
+                            "description": "实际住院(天)",
+                            "__XmlTagText__": "30"
+                        },
+                        "AAC11C": {
+                            "description": "出院医院内部科室代码",
+                            "__XmlTagText__": "01"
+                        },
+                        "AAC11N": {
+                            "description": "出院医院内部科室名称",
+                            "__XmlTagText__": "内科"
+                        }
+                    },
+                    "AAD01C": {
+                        "description": "转经科别代码《指标》",
+                        "__XmlTagText__": "04，69"
+                    }
+                },
+                "AB": {
+                    "description": "诊断情况",
+                    "ABA": {
+                        "description": "门急诊诊断信息",
+                        "ABA01C": {
+                            "description": "门(急)诊诊断编码(ICD-10)《指标》",
+                            "__XmlTagText__": "R94.602"
+                        },
+                        "ABA01N": {
+                            "description": "门(急)诊诊断名称",
+                            "__XmlTagText__": "低T3综合征"
+                        }
+                    },
+                    "ABC": {
+                        "description": "出院主要诊断信息",
+                        "ABC01C": {
+                            "description": "出院时主要诊断编码(ICD-10)《指标》",
+                            "__XmlTagText__": "R94.201"
+                        },
+                        "ABC01N": {
+                            "description": "出院主要诊断名称",
+                            "__XmlTagText__": "肺换气量减少"
+                        },
+                        "ABC03C": {
+                            "description": "入院病情《指标》",
+                            "__XmlTagText__": "1"
+                        }
+                    },
+                    "ABDS": {
+                        "description": "出院其他诊断集合根节点",
+                        "ABD": [
+                            {
+                                "description": "出院其他诊断信息",
+                                "ABD01C": {
+                                    "description": "出院时其他诊断编码(ICD-10)《指标》",
+                                    "__XmlTagText__": "S00.104"
+                                },
+                                "ABD01N": {
+                                    "description": "出院其他诊断名称",
+                                    "__XmlTagText__": "眼睑及眼周区挫伤"
+                                },
+                                "ABD03C": {
+                                    "description": "入院病情《指标》",
+                                    "__XmlTagText__": "2"
+                                }
+                            },
+                            {
+                                "description": "出院其他诊断信息",
+                                "ABD01C": {
+                                    "description": "出院时其他诊断编码(ICD-10)《指标》",
+                                    "__XmlTagText__": "S00.102"
+                                },
+                                "ABD01N": {
+                                    "description": "出院其他诊断名称",
+                                    "__XmlTagText__": "眼睑挫伤"
+                                },
+                                "ABD03C": {
+                                    "description": "入院病情《指标》",
+                                    "__XmlTagText__": "3"
+                                }
+                            }
+                        ]
+                    },
+                    "ABF": {
+                        "description": "病理诊断信息",
+                        "ABF01C": {
+                            "description": "病理诊断编码(M码)《指标》",
+                            "__XmlTagText__": "M821005/3"
+                        },
+                        "ABF01N": {
+                            "description": "病理诊断名称",
+                            "__XmlTagText__": "息肉内的腺癌"
+                        },
+                        "ABF04": {
+                            "description": "病理号",
+                            "__XmlTagText__": "01010102"
+                        },
+                        "ABF02C": {
+                            "description": "最高诊断依据代码《指标》",
+                            "__XmlTagText__": "8"
+                        },
+                        "ABF03C": {
+                            "description": "分化程度编码《指标》",
+                            "__XmlTagText__": "9"
+                        }
+                    },
+                    "ABG": {
+                        "description": "损伤中毒诊断信息",
+                        "ABG01C": {
+                            "description": "损伤和中毒外部原因编码(ICD-10)《指标》",
+                            "__XmlTagText__": "S00.302"
+                        },
+                        "ABG01N": {
+                            "description": "损伤和中毒外部原因名称",
+                            "__XmlTagText__": "眼睑及眼周区挫伤"
+                        }
+                    },
+                    "ABH": {
+                        "description": "肿瘤分期",
+                        "ABH01C": {
+                            "description": "肿瘤分期是否不详《指标》",
+                            "__XmlTagText__": "1"
+                        },
+                        "ABH0201C": {
+                            "description": "肿瘤分期 T《指标》",
+                            "__XmlTagText__": "1"
+                        },
+                        "ABH0202C": {
+                            "description": "肿瘤分期 N《指标》",
+                            "__XmlTagText__": "2"
+                        },
+                        "ABH0203C": {
+                            "description": "肿瘤分期 M《指标》",
+                            "__XmlTagText__": "9"
+                        },
+                        "ABH03C": {
+                            "description": "0～Ⅳ肿瘤分期《指标》",
+                            "__XmlTagText__": "4"
+                        }
+                    }
+                },
+                "AC": {
+                    "description": "手术情况",
+                    "ACAS": {
+                        "description": "手术情况集合根节点",
+                        "ACA": [
+                            {
+                                "description": "手术信息",
+                                "ACA01": {
+                                    "description": "手术日期时间（开始）",
+                                    "__XmlTagText__": "2013-01-05 20:10:10"
+                                },
+                                "ACA11": {
+                                    "description": "手术日期时间（完成）",
+                                    "__XmlTagText__": "2013-01-06 02:10:10"
+                                },
+                                "ACA02": {
+                                    "description": "术者（手术操作医师姓名）",
+                                    "__XmlTagText__": "王五"
+                                },
+                                "ACA03": {
+                                    "description": "Ⅰ助姓名",
+                                    "__XmlTagText__": "赵六"
+                                },
+                                "ACA04": {
+                                    "description": "Ⅱ助姓名",
+                                    "__XmlTagText__": "汉启"
+                                },
+                                "ACA06C": {
+                                    "description": "麻醉方式代码《指标》",
+                                    "__XmlTagText__": "01"
+                                },
+                                "ACA07C": {
+                                    "description": "切口愈合等级代码《指标》",
+                                    "__XmlTagText__": "9"
+                                },
+                                "ACA08": {
+                                    "description": "麻醉医师姓名",
+                                    "__XmlTagText__": "屠户"
+                                },
+                                "ACA10C": {
+                                    "description": "手术级别代码《指标》",
+                                    "__XmlTagText__": "2"
+                                },
+                                "ACA09S": {
+                                    "description": "手术代码集合根节点",
+                                    "ACA09": [
+                                        {
+                                            "description": "术式信息",
+                                            "ACA0901C": {
+                                                "description": "手术及操作编码(ICD-9-CM3)《指标》",
+                                                "__XmlTagText__": "48.41002"
+                                            },
+                                            "ACA0901N": {
+                                                "description": "手术及操作名称",
+                                                "__XmlTagText__": "索夫氏直肠粘膜下切除术[Soave]"
+                                            },
+                                            "ACA0902C": {
+                                                "description": "是否主要术式《指标》",
+                                                "__XmlTagText__": "2"
+                                            },
+                                            "ACA0903C": {
+                                                "description": "是否主要手术或操作《指标》",
+                                                "__XmlTagText__": "2"
+                                            }
+                                        },
+                                        {
+                                            "description": "术式信息",
+                                            "ACA0901C": {
+                                                "description": "手术及操作编码(ICD-9-CM3)《指标》",
+                                                "__XmlTagText__": "48.76001"
+                                            },
+                                            "ACA0901N": {
+                                                "description": "手术及操作名称",
+                                                "__XmlTagText__": "直肠固定术"
+                                            },
+                                            "ACA0902C": {
+                                                "description": "是否主要术式《指标》",
+                                                "__XmlTagText__": "2"
+                                            },
+                                            "ACA0903C": {
+                                                "description": "是否主要手术或操作《指标》",
+                                                "__XmlTagText__": "2"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "description": "手术信息",
+                                "ACA01": {
+                                    "description": "手术日期时间（开始）",
+                                    "__XmlTagText__": "2013-01-05 20:10:10"
+                                },
+                                "ACA11": {
+                                    "description": "手术日期时间（完成）",
+                                    "__XmlTagText__": "2013-01-06 02:10:10"
+                                },
+                                "ACA02": {
+                                    "description": "术者（手术操作医师姓名）",
+                                    "__XmlTagText__": "李红"
+                                },
+                                "ACA03": {
+                                    "description": "Ⅰ助姓名",
+                                    "__XmlTagText__": "程林"
+                                },
+                                "ACA04": {
+                                    "description": "Ⅱ助姓名",
+                                    "__XmlTagText__": "马光"
+                                },
+                                "ACA06C": {
+                                    "description": "麻醉方式代码《指标》",
+                                    "__XmlTagText__": "0104"
+                                },
+                                "ACA07C": {
+                                    "description": "切口愈合等级代码《指标》",
+                                    "__XmlTagText__": "8"
+                                },
+                                "ACA08": {
+                                    "description": "麻醉医师姓名",
+                                    "__XmlTagText__": "李峰"
+                                },
+                                "ACA10C": {
+                                    "description": "手术级别代码《指标》",
+                                    "__XmlTagText__": "3"
+                                },
+                                "ACA09S": {
+                                    "description": "手术代码集合根节点",
+                                    "ACA09": [
+                                        {
+                                            "description": "术式信息",
+                                            "ACA0901C": {
+                                                "description": "手术及操作编码(ICD-9-CM3)《指标》",
+                                                "__XmlTagText__": "00.50001"
+                                            },
+                                            "ACA0901N": {
+                                                "description": "手术及操作名称",
+                                                "__XmlTagText__": "双心室起搏器植入术"
+                                            },
+                                            "ACA0902C": {
+                                                "description": "是否主要术式《指标》",
+                                                "__XmlTagText__": "2"
+                                            },
+                                            "ACA0903C": {
+                                                "description": "是否主要手术或操作《指标》",
+                                                "__XmlTagText__": "2"
+                                            }
+                                        },
+                                        {
+                                            "description": "术式信息",
+                                            "ACA0901C": {
+                                                "description": "手术及操作编码(ICD-9-CM3)《指标》",
+                                                "__XmlTagText__": "00.52002"
+                                            },
+                                            "ACA0901N": {
+                                                "description": "手术及操作名称",
+                                                "__XmlTagText__": "左心室冠状静脉电极置换术"
+                                            },
+                                            "ACA0902C": {
+                                                "description": "是否主要术式《指标》",
+                                                "__XmlTagText__": "2"
+                                            },
+                                            "ACA0903C": {
+                                                "description": "是否主要手术或操作《指标》",
+                                                "__XmlTagText__": "2"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "description": "手术信息",
+                                "ACA01": {
+                                    "description": "手术日期时间（开始）",
+                                    "__XmlTagText__": "2013-02-05 20:10:10"
+                                },
+                                "ACA11": {
+                                    "description": "手术日期时间（完成）",
+                                    "__XmlTagText__": "2013-02-06 02:10:10"
+                                },
+                                "ACA02": {
+                                    "description": "术者（手术操作医师姓名）",
+                                    "__XmlTagText__": "王五"
+                                },
+                                "ACA03": {
+                                    "description": "Ⅰ助姓名",
+                                    "__XmlTagText__": "何华"
+                                },
+                                "ACA04": {
+                                    "description": "Ⅱ助姓名",
+                                    "__XmlTagText__": "吴玲"
+                                },
+                                "ACA06C": {
+                                    "description": "麻醉方式代码《指标》",
+                                    "__XmlTagText__": "01"
+                                },
+                                "ACA07C": {
+                                    "description": "切口愈合等级代码《指标》",
+                                    "__XmlTagText__": "5"
+                                },
+                                "ACA08": {
+                                    "description": "麻醉医师姓名",
+                                    "__XmlTagText__": "苗语"
+                                },
+                                "ACA10C": {
+                                    "description": "手术级别代码《指标》",
+                                    "__XmlTagText__": "4"
+                                },
+                                "ACA09S": {
+                                    "description": "手术代码集合根节点",
+                                    "ACA09": [
+                                        {
+                                            "description": "术式信息",
+                                            "ACA0901C": {
+                                                "description": "手术及操作编码(ICD-9-CM3)《指标》",
+                                                "__XmlTagText__": "00.01001"
+                                            },
+                                            "ACA0901N": {
+                                                "description": "手术及操作名称",
+                                                "__XmlTagText__": "头部血管治疗性超声"
+                                            },
+                                            "ACA0902C": {
+                                                "description": "是否主要术式《指标》",
+                                                "__XmlTagText__": "2"
+                                            },
+                                            "ACA0903C": {
+                                                "description": "是否主要手术或操作《指标》",
+                                                "__XmlTagText__": "2"
+                                            }
+                                        },
+                                        {
+                                            "description": "术式信息",
+                                            "ACA0901C": {
+                                                "description": "手术及操作编码(ICD-9-CM3)《指标》",
+                                                "__XmlTagText__": "00.01002"
+                                            },
+                                            "ACA0901N": {
+                                                "description": "手术及操作名称",
+                                                "__XmlTagText__": "颈部血管治疗性超声"
+                                            },
+                                            "ACA0902C": {
+                                                "description": "是否主要术式《指标》",
+                                                "__XmlTagText__": "2"
+                                            },
+                                            "ACA0903C": {
+                                                "description": "是否主要手术或操作《指标》",
+                                                "__XmlTagText__": "2"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "AE": {
+                    "description": "其他情况",
+                    "AEB": {
+                        "description": "药物过敏信息",
+                        "AEB02C": {
+                            "description": "有无药物过敏《指标》",
+                            "__XmlTagText__": "1"
+                        },
+                        "AEB01": {
+                            "description": "过敏药物",
+                            "__XmlTagText__": "抗性药物过敏,其它药物过敏"
+                        }
+                    },
+                    "AED": {
+                        "description": "病案质控信息",
+                        "AED01C": {
+                            "description": "病案质量代码《指标》",
+                            "__XmlTagText__": "3"
+                        },
+                        "AED02": {
+                            "description": "质控医师姓名",
+                            "__XmlTagText__": "王天一"
+                        },
+                        "AED03": {
+                            "description": "质控护士姓名",
+                            "__XmlTagText__": "张添翼"
+                        },
+                        "AED04": {
+                            "description": "病案质量检查日期",
+                            "__XmlTagText__": "2010-02-05"
+                        }
+                    },
+                    "AEE": {
+                        "description": "医师信息",
+                        "AEE01": {
+                            "description": "科主任姓名",
+                            "__XmlTagText__": "王天一"
+                        },
+                        "AEE02": {
+                            "description": "主(副主)任医师姓名",
+                            "__XmlTagText__": "王天一"
+                        },
+                        "AEE03": {
+                            "description": "主治医师姓名",
+                            "__XmlTagText__": "王天一"
+                        },
+                        "AEE11": {
+                            "description": "主诊医师执业证书编码",
+                            "__XmlTagText__": "1101021021021021"
+                        },
+                        "AEE09": {
+                            "description": "主诊医师姓名（主管医师姓名）",
+                            "__XmlTagText__": "王天一"
+                        },
+                        "AEE04": {
+                            "description": "住院医师姓名",
+                            "__XmlTagText__": "王天一"
+                        },
+                        "AEE05": {
+                            "description": "进修医师姓名",
+                            "__XmlTagText__": "王天一"
+                        },
+                        "AEE07": {
+                            "description": "实习医师姓名",
+                            "__XmlTagText__": "王天一"
+                        },
+                        "AEE08": {
+                            "description": "编码员姓名",
+                            "__XmlTagText__": "王天一"
+                        },
+                        "AEE10": {
+                            "description": "责任护士姓名",
+                            "__XmlTagText__": "王天一"
+                        }
+                    },
+                    "AEG": {
+                        "description": "血液信息",
+                        "AEG01C": {
+                            "description": "血型代码《指标》",
+                            "__XmlTagText__": "5"
+                        },
+                        "AEG02C": {
+                            "description": "Rh代码《指标》",
+                            "__XmlTagText__": "2"
+                        },
+                        "AEG04": {
+                            "description": "红细胞(单位)",
+                            "__XmlTagText__": "100"
+                        },
+                        "AEG05": {
+                            "description": "血小板(袋)",
+                            "__XmlTagText__": "100"
+                        },
+                        "AEG06": {
+                            "description": "血浆(ml)",
+                            "__XmlTagText__": "100"
+                        },
+                        "AEG07": {
+                            "description": "全血(ml)",
+                            "__XmlTagText__": "100"
+                        },
+                        "AEG08": {
+                            "description": "其它(ml)",
+                            "__XmlTagText__": "100"
+                        }
+                    },
+                    "AEJ": {
+                        "description": "颅脑患者昏迷情况",
+                        "AEJ01": {
+                            "description": "颅脑损伤患者入院前昏迷时间（天）",
+                            "__XmlTagText__": "2"
+                        },
+                        "AEJ02": {
+                            "description": "颅脑损伤患者入院前昏迷时间（小时）",
+                            "__XmlTagText__": "3"
+                        },
+                        "AEJ03": {
+                            "description": "颅脑损伤患者入院前昏迷时间（分钟）",
+                            "__XmlTagText__": "10"
+                        },
+                        "AEJ04": {
+                            "description": "颅脑损伤患者入院后昏迷时间（天）",
+                            "__XmlTagText__": "1"
+                        },
+                        "AEJ05": {
+                            "description": "颅脑损伤患者入院后昏迷时间（小时）",
+                            "__XmlTagText__": "1"
+                        },
+                        "AEJ06": {
+                            "description": "颅脑损伤患者入院后昏迷时间（分钟）",
+                            "__XmlTagText__": "50"
+                        }
+                    },
+                    "AEKS": {
+                        "description": "重症监护集合根节点",
+                        "AEK": [
+                            {
+                                "description": "重症监护情况",
+                                "AEK01C": {
+                                    "description": "重症监护室代码《指标》",
+                                    "__XmlTagText__": "03"
+                                },
+                                "AEK02": {
+                                    "description": "监护室进入日期时间",
+                                    "__XmlTagText__": "2013-02-12 10:20:20"
+                                },
+                                "AEK03": {
+                                    "description": "监护室退出日期时间",
+                                    "__XmlTagText__": "2013-02-20 09:20:20"
+                                }
+                            },
+                            {
+                                "description": "重症监护情况",
+                                "AEK01C": {
+                                    "description": "重症监护室代码《指标》",
+                                    "__XmlTagText__": "01"
+                                },
+                                "AEK02": {
+                                    "description": "监护室进入日期时间",
+                                    "__XmlTagText__": "2013-05-12 10:20:20"
+                                },
+                                "AEK03": {
+                                    "description": "监护室退出日期时间",
+                                    "__XmlTagText__": "2013-05-20 09:20:20"
+                                }
+                            }
+                        ]
+                    },
+                    "AEL01": {
+                        "description": "呼吸机使用时间(小时)",
+                        "__XmlTagText__": "10"
+                    },
+                    "AENS": {
+                        "description": "新生儿情况集合根节点",
+                        "AEN": [
+                            {
+                                "description": "新生儿情况",
+                                "AEN01": {
+                                    "description": "新生儿出生体重(克)",
+                                    "__XmlTagText__": "3501"
+                                },
+                                "AEN02C": {
+                                    "description": "新生儿出生缺陷诊断编码(ICD-10)《指标》",
+                                    "__XmlTagText__": "M21.903"
+                                },
+                                "AEN02N": {
+                                    "description": "新生儿出生缺陷诊断名称",
+                                    "__XmlTagText__": "后天性下肢畸形"
+                                }
+                            },
+                            {
+                                "description": "新生儿情况",
+                                "AEN01": {
+                                    "description": "新生儿出生体重(克)",
+                                    "__XmlTagText__": "3502"
+                                },
+                                "AEN02C": {
+                                    "description": "新生儿出生缺陷诊断编码(ICD-10)《指标》",
+                                    "__XmlTagText__": "A09.001"
+                                },
+                                "AEN02N": {
+                                    "description": "新生儿出生缺陷诊断名称",
+                                    "__XmlTagText__": "肠道感染"
+                                }
+                            }
+                        ]
+                    },
+                    "AEM": {
+                        "description": "离院情况",
+                        "AEM01C": {
+                            "description": "离院方式代码《指标》",
+                            "__XmlTagText__": "2"
+                        },
+                        "AEM02": {
+                            "description": "医嘱转院、转社区、卫生院机构名称",
+                            "__XmlTagText__": "北京两广中医医院"
+                        },
+                        "AEM03C": {
+                            "description": "是否有出院31日内再住院计划《指标》",
+                            "__XmlTagText__": "1"
+                        },
+                        "AEM04": {
+                            "description": "31日内再住院目的",
+                            "__XmlTagText__": "复查"
+                        }
+                    },
+                    "AEI": {
+                        "description": "其他信息",
+                        "AEI01C": {
+                            "description": "是否尸检代码《指标》",
+                            "__XmlTagText__": "2"
+                        },
+                        "AEI09": {
+                            "description": "日常生活能力评定量得分（入院）",
+                            "__XmlTagText__": "50"
+                        },
+                        "AEI10": {
+                            "description": "日常生活能力评定量得分（出院）",
+                            "__XmlTagText__": "50"
+                        },
+                        "AEI08": {
+                            "description": "备注",
+                            "__XmlTagText__": "备注信息"
+                        }
+                    }
+                },
+                "AD": {
+                    "description": "费用情况",
+                    "ADA": {
+                        "description": "住院费用情况",
+                        "ADA01": {
+                            "description": "总费用",
+                            "__XmlTagText__": "4000.00"
+                        },
+                        "ADA0101": {
+                            "description": "自付金额",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA11": {
+                            "description": "诊察（诊疗）费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA21": {
+                            "description": "一般检查费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA22": {
+                            "description": "临床物理治疗费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA23": {
+                            "description": "介入治疗费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA24": {
+                            "description": "特殊治疗费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA25": {
+                            "description": "康复治疗费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA26": {
+                            "description": "中医治疗费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA27": {
+                            "description": "一般治疗费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA28": {
+                            "description": "精神治疗费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA13": {
+                            "description": "接生费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA15": {
+                            "description": "麻醉费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA12": {
+                            "description": "手术费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA29": {
+                            "description": "护理治疗费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA03": {
+                            "description": "护理费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA30": {
+                            "description": "核素检查",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA31": {
+                            "description": "核素治疗",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA32": {
+                            "description": "超声费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA07": {
+                            "description": "放射费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA08": {
+                            "description": "化验费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA33": {
+                            "description": "病理费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA34": {
+                            "description": "监护及辅助呼吸费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA35": {
+                            "description": "治疗用一次性医用材料费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA36": {
+                            "description": "介入用一次性医用材料费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA37": {
+                            "description": "手术用一次性医用材料费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA38": {
+                            "description": "检查用一次性医用材料费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA02": {
+                            "description": "床位费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA39": {
+                            "description": "挂号费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA09": {
+                            "description": "输氧费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA10": {
+                            "description": "输血费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA04": {
+                            "description": "西药费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA40": {
+                            "description": "抗菌药物费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA41": {
+                            "description": "白蛋白类制品费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA42": {
+                            "description": "球蛋白类制品费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA43": {
+                            "description": "凝血因子类制品费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA44": {
+                            "description": "细胞因子类制品费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA05": {
+                            "description": "中成药费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA06": {
+                            "description": "中草药费",
+                            "__XmlTagText__": "100.00"
+                        },
+                        "ADA20": {
+                            "description": "其他费用",
+                            "__XmlTagText__": "100.00"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
