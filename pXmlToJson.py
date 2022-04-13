@@ -73,10 +73,10 @@ def parserxmltojson(file_path):
     try:
         tree = ElementTree.parse(file_path)
     except Exception as e:
-        #multi-byte encodings are not supported    把字符集改成utf-8就可以
-        #encoding specified in XML declaration is incorrect    xml encoding标识和文件的字符集不同
-        #syntax error    语法错误，乱码等
-        #not well-formed (invalid token)    编辑器点击后字符集被修改成ASCII等，或者文件本身字符集和xml encoding不相同
+        #multi-byte encodings are not supported
+        #encoding specified in XML declaration is incorrect
+        #syntax error
+        #not well-formed (invalid token)
         print("Parser {} Error, Errmsg: {}".format(file_path, e))
         return ""
 
